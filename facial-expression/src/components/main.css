@@ -1,0 +1,87 @@
+.main {
+  margin: 0 10rem 0 5rem;
+  gap: 1rem;
+}
+.main-img img {
+  width: 600px;
+  height: auto;
+
+  margin-top: 2rem;
+  border-radius: 0;
+}
+.main-img {
+  display: flex;
+  flex-direction: column;
+}
+.camera {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(101, 212, 110);
+  margin-left: 13rem;
+  margin-top: 1rem;
+}
+
+.para {
+  & p {
+    color: black;
+  }
+
+  width: 300px;
+  height: 60px;
+  align-self: last baseline;
+  border: 2px solid rgb(101, 212, 110);
+  border-radius: 100px;
+  text-align: center;
+  background-color: rgb(101, 212, 110);
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(101, 212, 110);
+  border-radius: 100px;
+}
+
+button:hover {
+  color: black;
+  background-color: rgb(101, 212, 110);
+  transition: all 0.8s ease;
+}
+
+.chatbot-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1rem;
+  width: 800px;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+}
+.chatbot-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: last baseline;
+}
+input {
+  background-color: rgb(101, 212, 110);
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 200px;
+  height: 30px;
+}
+input::placeholder {
+  text-align: center;
+}

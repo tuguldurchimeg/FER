@@ -1,0 +1,37 @@
+.body {
+  color: white;
+}
+.main-help {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+h3 {
+  font-size: small;
+}
+p {
+  font-size: smaller;
+}
+.comment {
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+}
+.comment img {
+  width: auto;
+  height: auto;
+}
+.comment img:hover {
+  scale: 1.1;
+  transition: all 0.5s ease;
+}
+.sondgoi {
+  padding-right: 100px;
+}
+.comment p {
+  line-height: 30px;
+}
+.comment a:hover {
+  color: #65d46e;
+  text-decoration: underline;
+}
