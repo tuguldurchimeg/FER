@@ -16,7 +16,7 @@ p {
 .comment {
   display: flex;
   flex-direction: row;
-  gap: 300px;
+  justify-content: space-between;
 }
 .comment img {
   width: auto;
@@ -26,9 +26,7 @@ p {
   scale: 1.1;
   transition: all 0.5s ease;
 }
-.sondgoi {
-  padding-right: 100px;
-}
+
 .comment p {
   line-height: 30px;
 }
