@@ -1,5 +1,5 @@
 .main {
-  margin: 0 10rem 0 5rem;
+  margin: 3rem 10rem 0 5rem;
   gap: 1rem;
 }
 .main-img img {
@@ -62,6 +62,7 @@ button:hover {
   flex-direction: column;
   gap: 1.2rem;
   margin-top: 1rem;
+  margin-left: 3rem;
   width: 800px;
 }
 
