@@ -1,6 +1,8 @@
 .main {
   margin: 3rem 10rem 0 5rem;
-  gap: 1rem;
+  gap: 10rem;
+  align-items: center;
+  justify-content: center;
 }
 .main-img img {
   width: 600px;
@@ -85,4 +87,7 @@ input {
 }
 input::placeholder {
   text-align: center;
+}
+.iAuOXT:disabled {
+  background:rgb(101, 212, 110);
 }

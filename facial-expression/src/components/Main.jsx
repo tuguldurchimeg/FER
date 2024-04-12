@@ -2,8 +2,8 @@ import React from "react";
 
 import "./main.css";
 import mainimg from "./assets/Rectangle.svg";
-import chatbot from "./assets/image 1.svg";
 import Header from "./Header";
+import ThemedExample from "./ThemedExample";
 const Main = () => {
   return (
     <div className="Body">
@@ -13,38 +13,7 @@ const Main = () => {
           <img src={mainimg} alt="main" />
           <button className="camera">Camera</button>
         </div>
-        <div class="chatbot-section">
-          <div class="para">
-            <p>Hello. I am chatbot. Are you feeling lonely?</p>
-          </div>
-
-          <div class="buttons flex-start">
-            <button class="yes-btn">YES</button>
-            <button class="no-btn">No</button>
-          </div>
-
-          <div class="para">
-            <p>Hello. I am chatbot. Are you feeling lonely?</p>
-          </div>
-
-          <div class="buttons flex-start">
-            <button class="yes-btn">YES</button>
-            <button class="no-btn">No</button>
-          </div>
-
-          <div class="para">
-            <p>Hello. I am chatbot. Are you feeling lonely?</p>
-          </div>
-
-          <div class="buttons flex-start">
-            <button class="yes-btn">YES</button>
-            <button class="no-btn">No</button>
-          </div>
-          <div className="chatbot-logo">
-            <input type="text" id="input" placeholder="text here" />
-            <img src={chatbot} alt="chatbot" />
-          </div>
-        </div>
+      <ThemedExample/>
       </div>
     </div>
   );
