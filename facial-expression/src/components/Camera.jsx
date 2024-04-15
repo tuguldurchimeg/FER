@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Webcam from 'react-webcam'
-const WebcamComponent = () => <Webcam />
 const videoConstraints = {
   width: 600,
   height: 400,
@@ -16,7 +15,7 @@ const Camera = () => {
   return (
     <div>
       <div className="mb-5">
-        {picture == '' ? (
+        {picture === '' ? (
           <Webcam
             audio={false}
             height={400}
@@ -26,11 +25,11 @@ const Camera = () => {
             videoConstraints={videoConstraints}
           />
         ) : (
-          <img src={picture} />
+          <img src={picture} alt=''/>
         )}
       </div>
       <div>
-        {picture != '' ? (
+        {picture !== '' ? (
           <button
             onClick={(e) => {
               e.preventDefault()

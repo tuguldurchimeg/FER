@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState} from "react";
 import Camera from "./Camera";
 import "./main.css";
 import mainimg from "./assets/Rectangle.svg";

@@ -5,7 +5,6 @@ import Help from "./components/Help";
 import Login from "./components/Login";
 import History from "./components/History";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Camera from "./components/Camera";
 
 function App() {
   return (
