@@ -7,9 +7,9 @@
 .main-img img {
   width: 600px;
   height: auto;
-
   margin-top: 2rem;
   border-radius: 0;
+  
 }
 .main-img {
   display: flex;

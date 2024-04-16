@@ -13,18 +13,17 @@ const Main = () => {
       <Header />
       <div className="main flex-row">
         <div className="main-img">
-          <img src={mainimg} alt="main" />
+          {showCamera ? 
+              (<Camera />) : 
+              ( <img src={mainimg} alt="main" /> )
+          }
           <button
             className="display-cam-btn"
             onClick={() => setShowCamera(!showCamera)}
           >
             {showCamera ? "Камер хаах" : "Камер нээх"}
           </button>
-          {showCamera && (
-            <div className="cam-container">
-              <Camera />
-            </div>
-          )}
+          
         </div>
         <ThemedExample />
       </div>
