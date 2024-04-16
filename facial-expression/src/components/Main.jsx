@@ -18,7 +18,7 @@ const Main = () => {
             className="display-cam-btn"
             onClick={() => setShowCamera(!showCamera)}
           >
-            {showCamera ? "Hide Camera" : "Show Camera"}
+            {showCamera ? "Камер хаах" : "Камер нээх"}
           </button>
           {showCamera && (
             <div className="cam-container">
