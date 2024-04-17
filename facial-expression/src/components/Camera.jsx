@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Webcam from 'react-webcam'
+import "./main.css";
 const videoConstraints = {
   width: 600,
   height: 400,
@@ -13,8 +14,8 @@ const Camera = () => {
     setPicture(pictureSrc)
   })
   return (
-    <div>
-      <div className="mb-5">
+    <div className="cam-container">
+      <div>
         {picture === '' ? (
           <Webcam
             audio={false}
@@ -23,6 +24,7 @@ const Camera = () => {
             width={600}
             screenshotFormat="image/jpeg"
             videoConstraints={videoConstraints}
+            className="cam"
           />
         ) : (
           <img src={picture} alt=''/>
@@ -35,7 +37,7 @@ const Camera = () => {
               e.preventDefault()
               setPicture()
             }}
-            className="btn btn-primary"
+            className="btn-retake"
           >
             Retake
           </button>
@@ -45,7 +47,7 @@ const Camera = () => {
               e.preventDefault()
               capture()
             }}
-            className="btn btn-danger"
+            className="btn-capture"
           >
             Capture
           </button>
