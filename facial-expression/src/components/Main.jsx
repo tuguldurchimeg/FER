@@ -1,9 +1,10 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import Camera from "./Camera";
 import "./main.css";
 import mainimg from "./assets/Rectangle.svg";
 import Header from "./Header";
-import ThemedExample from "./ThemedExample";
+
+import ChatBot from "./chatbot/Chatbot";
 
 const Main = () => {
   const [showCamera, setShowCamera] = useState(false);
@@ -13,19 +14,15 @@ const Main = () => {
       <Header />
       <div className="main flex-row">
         <div className="main-img">
-          {showCamera ? 
-              (<Camera />) : 
-              ( <img src={mainimg} alt="main" /> )
-          }
+          {showCamera ? <Camera /> : <img src={mainimg} alt="main" />}
           <button
             className="display-cam-btn"
             onClick={() => setShowCamera(!showCamera)}
           >
             {showCamera ? "Камер хаах" : "Камер нээх"}
           </button>
-          
         </div>
-        <ThemedExample />
+        <ChatBot />
       </div>
     </div>
   );
