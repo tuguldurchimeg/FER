@@ -1,9 +1,31 @@
+/* Table.css */
+.css-15wwp11-MuiTableHead-root{
+background-color: black !important;
+}
 
-table{
+.table-container {
+    background-color: black !important; /* Change the background color of the table container */
+  }
+  
+  .table {
+    background-color: #ffffff; /* Change the background color of the table */
+  }
+  
+  .th {
+    background-color: #a0a0a0; /* Change the background color of the table header */
+  }
+  
+  /* You can add more styles as needed */
+  
+.th{
+    background-color: black !important;
+}
+.table{
     color:white;
-    
+    background-color: black !important;
       
 }
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: #65d46e;
+    border:0 !important;
   }
