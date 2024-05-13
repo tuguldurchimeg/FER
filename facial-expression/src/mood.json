@@ -1,0 +1,123 @@
+{"mood_data":[
+        {
+          "date": "2024-04-01",
+          "mood": "happy"
+        },
+        {
+          "date": "2024-04-02",
+          "mood": "happy"
+        },
+        {
+          "date": "2024-04-03",
+          "mood": "sad"
+        },
+        {
+          "date": "2024-04-04",
+          "mood": "happy"
+        },
+        {
+          "date": "2024-04-05",
+          "mood": "happy"
+        },
+        {
+          "date": "2024-04-06",
+          "mood": "sad"
+        },
+        {
+          "date": "2024-04-07",
+          "mood": "anxious"
+        },
+        {
+          "date": "2024-04-08",
+          "mood": "bored"
+        },
+        {
+          "date": "2024-04-09",
+          "mood": "motivated"
+        },
+        {
+          "date": "2024-04-10",
+          "mood": "bored"
+        },
+        {
+          "date": "2024-04-11",
+          "mood": "motivated"
+        },
+        {
+          "date": "2024-04-12",
+          "mood": "motivated"
+        },
+        {
+          "date": "2024-04-13",
+          "mood": "tired"
+        },
+        {
+          "date": "2024-04-14",
+          "mood": "tired"
+        },
+        {
+          "date": "2024-04-15",
+          "mood": "tired"
+        },
+        {
+          "date": "2024-04-16",
+          "mood": "motivated"
+        },
+        {
+          "date": "2024-04-17",
+          "mood": "bored"
+        },
+        {
+          "date": "2024-04-18",
+          "mood": "happy"
+        },
+        {
+          "date": "2024-04-19",
+          "mood": "sad"
+        },
+        {
+          "date": "2024-04-20",
+          "mood": "happy"
+        },
+        {
+          "date": "2024-04-21",
+          "mood": "sad"
+        },
+        {
+          "date": "2024-04-22",
+          "mood": "happy"
+        },
+        {
+          "date": "2024-04-23",
+          "mood": "bored"
+        },
+        {
+          "date": "2024-04-24",
+          "mood": "bored"
+        },
+        {
+          "date": "2024-04-25",
+          "mood": "happy"
+        },
+        {
+          "date": "2024-04-26",
+          "mood": "content"
+        },
+        {
+          "date": "2024-04-27",
+          "mood": "anxious"
+        },
+        {
+          "date": "2024-04-28",
+          "mood": "anxious"
+        },
+        {
+          "date": "2024-04-29",
+          "mood": "motivated"
+        },
+        {
+          "date": "2024-04-30",
+          "mood": "anxious"
+        }
+    ]
+}

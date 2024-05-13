@@ -48,7 +48,7 @@ const config = {
           {
             text: "Song",
             url:
-              "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+              "https://open.spotify.com/playlist/5754p2SZ33ytfRDePSJLVH?si=1389d94a17c74ad3",
             id: 2,
           },
           {

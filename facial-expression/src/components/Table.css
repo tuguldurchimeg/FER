@@ -6,16 +6,17 @@ background-color: black !important;
 .table-container {
     background-color: black !important; /* Change the background color of the table container */
   }
-  
+  .table-body{
+    margin-top:3rem !important;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
   .table {
     background-color: #ffffff; /* Change the background color of the table */
+   
+
   }
-  
-  .th {
-    background-color: #a0a0a0; /* Change the background color of the table header */
-  }
-  
-  /* You can add more styles as needed */
+
   
 .th{
     background-color: black !important;

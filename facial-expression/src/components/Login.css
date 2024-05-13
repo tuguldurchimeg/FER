@@ -6,7 +6,7 @@
   border: 1px solid #65d46e;
   border-radius: 50px;
   margin-top: 5rem;
-
+  padding-top: 25px;
   align-items: center;
   gap: 1rem;
   & h1 {
@@ -33,4 +33,5 @@
 }
 .sign {
   gap: 6rem;
+  margin-top: 3rem;
 }
